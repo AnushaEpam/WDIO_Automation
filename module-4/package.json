@@ -1,0 +1,11 @@
+{
+    "name": "module-4",
+    "version": "1.0.0",
+    "description": "Module-4: Basic and Advanced WDIO Commands",
+    "license": "EPAM Systems",
+    "private": true,
+    "scripts": {
+      "wdio": "wdio run ./src/configs/wdio.conf.js"
+    }
+  }
+  

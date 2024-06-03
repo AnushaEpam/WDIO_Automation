@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="1" errors="1" skipped="0">
+  <testsuite name="Module 5 Advance Configurations" timestamp="2024-04-23T12:44:18" time="11.026" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Module 5: Advance Configurations"/>
+      <property name="capabilities" value="firefox.125_0_1.windows"/>
+      <property name="file" value="file:///C:/JSMentoring/automated_test_js/module-5/src/tests/failingTest.spec.js"/>
+    </properties>
+    <testcase classname="firefox.125_0_1.windows.Module_5:_Advance_Configurations" name="Failing test to check screenshot functionality" time="10.079">
+      <failure/>
+      <error message="Can't call setValue on element with selector &quot;#user-namet&quot; because element wasn't found"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/element - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: POST /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/elements - {"using":"css selector","value":"#user-namet"}
+RESULT: {"using":"css selector","value":"#user-namet"}
+COMMAND: GET /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48/screenshot - {}
+RESULT: {}
+COMMAND: DELETE /session/90ccb7ed-2ff3-4314-b7d0-83b7a45d2b48 - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Can't call setValue on element with selector "#user-namet" because element wasn't found
+    at async Context.<anonymous> (C:\JSMentoring\automated_test_js\module-5\src\tests\failingTest.spec.js:8:5)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,21 @@
+{
+  "name": "module-2",
+  "type":"module",
+  "version": "1.0.0",
+  "description": "Module 2: Unit Testing in JavaScript",
+  "license": "EPAM Systems",
+  "private": true,
+  "scripts": {
+  "test": "mocha",
+	"coverage":"c8 npm test"
+  },
+  "dependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "mocha": {
+    "spec": "tests/*.spec.js"
+  }
+}

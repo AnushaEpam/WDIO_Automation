@@ -1,0 +1,16 @@
+{
+    "name": "module-5",
+    "version": "1.0.0",
+    "description": "Module-5: WebDriveIO - Advanced Configurations",
+    "license": "EPAM Systems",
+    "private": true,
+    "scripts": {
+    "clean-allure": "rimraf ./allure-results",
+    "clean-junit":"rimraf ./report",
+    "pretest-allure": "npm run clean-allure",
+    "pretest-junit":"npm run clean-junit",
+    "wdio": "wdio run ./src/configs/wdio.conf.js",
+    "posttest-allure": "allure generate ./allure-results --clean && allure open"
+    }
+  }
+  

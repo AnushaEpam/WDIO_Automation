@@ -1,0 +1,18 @@
+{
+    "name": "module-7",
+    "version": "1.0.0",
+    "description": "Module-7: WebDriveIO - BDD JavaScript",
+    "license": "EPAM Systems",
+    "private": true,
+    "scripts": {
+        "wdio": "wdio run ./src/configs/wdio.conf.js"
+    },
+    "dependencies": {
+        "@wdio/cucumber-framework": "^8.11.0",
+        "geckodriver": "^4.3.3",
+        "wdio-geckodriver-service": "^5.0.2"
+    },
+    "devDependencies": {
+        "@wdio/devtools-service": "^8.36.1"
+    }
+}

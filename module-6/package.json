@@ -1,0 +1,14 @@
+{
+    "name": "module-6",
+    "version": "1.0.0",
+    "description": "Module-5: WebDriveIO - page object modal",
+    "license": "EPAM Systems",
+    "private": true,
+    "scripts": {
+    "wdio": "wdio run ./src/configs/wdio.conf.js"
+    },
+    "dependencies": {
+      "expect-webdriverio": "^4.2.6"
+    }  
+  }
+  
